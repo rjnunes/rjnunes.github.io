@@ -1,0 +1,91 @@
+*{
+  margin: 0px;
+  /*border: 2px solid black;*/
+}
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  margin-right: -20px;
+}
+nav{
+  height: 50px;
+}
+section{
+  padding: 10px
+}
+#btnTopo{
+  z-index: 1021;
+  position: fixed;
+  bottom: 6%;
+  right: 6%;
+  height:45px; 
+  width:45px;
+  background-color: black;
+  box-shadow: 2px 2px 4px black;
+  border-radius: 100%;
+}
+#spTopo{
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 40px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+section:nth-child(2n) {
+  background-color:#cccccc;
+}
+section:nth-child(2n+1) {
+  background-color:#555555;
+}
+
+span#facebook{
+  color: rgb(19, 47, 102);  
+}
+span#github{
+  color: rgb(65, 8, 65);
+}
+span#whatsapp{
+  color: rgb(3, 77, 3);
+}
+
+.jumbotron{
+  background-color:transparent;
+}
+#presentation{
+  align-content: center;
+  margin: 0px;
+  height: 100vmin;
+  background-color: transparent;
+  text-shadow: 1px 1px 3px #ffffff;
+}
+#presentation h1{
+  font-size: 12vmin;
+}
+#presentation p{
+  font-size: 7vmin;
+}
+
+
+
+.jobExperience{
+  display: flex;
+}
+
+.jobExperience div.descricao h1{
+  font-weight: bold;
+}
+
+.jobExperience div{
+  margin: 5vw;
+}
+
+.simbolo{
+  font-size: 100px;
+}
+
+.container div{
+  display: flex;
+}
